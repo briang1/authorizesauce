@@ -12,8 +12,8 @@ from authorize.apis.transaction import parse_response
 from authorize.exceptions import AuthorizeConnectionError, \
     AuthorizeError, AuthorizeResponseError, AuthorizeInvalidError
 
-PROD_URL = 'https://api.authorize.net/soap/v1/Service.asmx?WSDL'
-TEST_URL = 'https://apitest.authorize.net/soap/v1/Service.asmx?WSDL'
+PROD_URL = 'https://api2.authorize.net/soap/v1/Service.asmx?WSDL'
+TEST_URL = 'https://apitest2.authorize.net/soap/v1/Service.asmx?WSDL'
 
 
 class CustomerAPI(object):

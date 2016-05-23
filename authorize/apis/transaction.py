@@ -7,8 +7,8 @@ from authorize.exceptions import AuthorizeConnectionError, \
     AuthorizeResponseError
 
 
-PROD_URL = 'https://secure.authorize.net/gateway/transact.dll'
-TEST_URL = 'https://test.authorize.net/gateway/transact.dll'
+PROD_URL = 'https://secure2.authorize.net/gateway/transact.dll'
+TEST_URL = 'https://test2.authorize.net/gateway/transact.dll'
 RESPONSE_FIELDS = {
     0: 'response_code',
     2: 'response_reason_code',

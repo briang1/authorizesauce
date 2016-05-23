@@ -9,8 +9,8 @@ from authorize.exceptions import AuthorizeConnectionError, \
     AuthorizeInvalidError, AuthorizeResponseError
 
 
-PROD_URL = 'https://api.authorize.net/soap/v1/Service.asmx?WSDL'
-TEST_URL = 'https://apitest.authorize.net/soap/v1/Service.asmx?WSDL'
+PROD_URL = 'https://api2.authorize.net/soap/v1/Service.asmx?WSDL'
+TEST_URL = 'https://apitest2.authorize.net/soap/v1/Service.asmx?WSDL'
 
 
 class RecurringAPI(object):
